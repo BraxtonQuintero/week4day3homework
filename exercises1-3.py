@@ -25,7 +25,7 @@ def word_count(str):
             counts[i] = 1
     return counts
 
-word_count(a_text)
+print(word_count(a_text))
 
 # Exercise 3
 
@@ -38,4 +38,4 @@ def search_nums(nums_list, target):
     else:
         return 'This number is not in the list'
 
-search_nums(nums_list, 15)
+print(search_nums(nums_list, 15))
